@@ -12,9 +12,9 @@ public class ArithmeticConcept {
 
 		ArithmeticConcept ac = new ArithmeticConcept();
 		System.out.println("Addition Value is: " + ac.add(20, 10));
-		System.out.println("Substraction Value is: " + ac.sub(40, 25));
-		System.out.println("Multiplication Value is: " + ac.mul(45, 75));
-		System.out.println("Division Value is: " + ac.div(56, 5));
+		System.out.println("Substraction Value is: " + sub(40, 25));
+		System.out.println("Multiplication Value is: " + mul(45, 75));
+		System.out.println("Division Value is: " + div(56, 5));
 
 		// Adding method for Addition Logic //Single Line Comment
 
@@ -34,11 +34,11 @@ public class ArithmeticConcept {
 		return n1 - n2;
 	}
 
-	float mul(float n1, float n2) {
+	static float mul(float n1, float n2) {
 		return n1 * n2;
 	}
 
-	double div(double n1, double n2) {
+	static double div(double n1, double n2) {
 		return n1 / n2;
 	}
 
